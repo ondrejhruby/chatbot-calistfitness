@@ -8,26 +8,106 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - ask_hybrid_trainings
+  - ask_why_hybrid_trainings
+  - ask_lose_weight
+  - ask_pre_workout_meal
+  - ask_post_workout_meal
+  - ask_see_results
+  - ask_training_location
+  - ask_training_plan_creation
+  - ask_plan_update
+  - ask_online_coaching_support
+  - ask_consultation_calls
+  - ask_hybrid_trainings_benefits
+  - ask_coaching_costs
+  - ask_long_term_commitment
+  - ask_referral_discounts
+  - ask_coaching_features
+  - ask_pause_subscription
+  - ask_cancel_subscription
+  - ask_missed_workouts
+  - ask_change_exercises
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+    - text: "Hey! How are you?"
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+    - text: "Did that help you?"
 
   utter_happy:
-  - text: "Great, carry on!"
+    - text: "Great, carry on!"
 
   utter_goodbye:
-  - text: "Bye"
+    - text: "Bye"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+    - text: "I am a bot, powered by Rasa."
+
+  utter_hybrid_trainings:
+    - text: "Hybrid Trainings are a combination of Fitness and Calisthenics exercises taking the best out of both worlds to build a strong, functional body while gaining muscle or losing fat."
+
+  utter_why_hybrid_trainings:
+    - text: "By blending Calisthenics and Bodybuilding, Hybrid Trainings provide a unique, personalized program designed to maximize strength, functionality, and muscle growth."
+
+  utter_lose_weight:
+    - text: "To lose weight, a balanced and personalized meal plan including a caloric deficit is key. Recommended training would be at least 3 days a week."
+
+  utter_pre_workout_meal:
+    - text: "Before a workout, have a regular meal from your meal plan, allowing 1 to 1.5 hours for digestion. Alternatively, opt for a light meal low in carbs and high in protein, or a protein shake."
+
+  utter_post_workout_meal:
+    - text: "After a workout, have a meal with sufficient protein and carbs to support recovery. A protein shake right after the workout is also a good option."
+
+  utter_see_results:
+    - text: "Results vary individually, but generally, you will start seeing progress within the first few months if you follow the provided meal and training plan."
+
+  utter_training_location:
+    - text: "Your plan will be created based on available equipment. Whether at home or in a gym, I will tailor it to suit your needs."
+
+  utter_training_plan_creation:
+    - text: "Plans are crafted based on your goals, past experience, preferred exercises, and available equipment."
+
+  utter_plan_update:
+    - text: "We will update your plan if workouts become unenjoyable or progress slows significantly."
+
+  utter_online_coaching_support:
+    - text: "The coaching includes 24/7 support via my private WhatsApp number, where you can ask questions, send exercise videos, and meal pictures for feedback and adjustments."
+
+  utter_consultation_calls:
+    - text: "Consultation calls last about 20-30 minutes. We discuss your goals, challenges, and how coaching works, then set you up with the training and meal plans."
+
+  utter_hybrid_trainings_benefits:
+    - text: "Hybrid Trainings offer a blend of Calisthenics and Fitness, ensuring functional strength and muscle growth, setting them apart from traditional bodybuilding."
+
+  utter_coaching_costs:
+    - text: "The All-in-One coaching, including personalized plans and 24/7 support, costs 100 euros per month."
+
+  utter_long_term_commitment:
+    - text: "Sign up for 3 months for 250 euros, 6 months for 450 euros, or 12 months for 900 euros, offering increasing value with longer commitments."
+
+  utter_referral_discounts:
+    - text: "Earn a 10% discount on the next month for each friend referred, and get a free month after three successful referrals."
+
+  utter_coaching_features:
+    - text: "Coaching includes personalized plans, 24/7 support, exercise videos, meal feedback, and monthly check-ins to keep you on track."
+
+  utter_pause_subscription:
+    - text: "You can pause your subscription if needed, such as for holidays, and resume where you left off."
+
+  utter_cancel_subscription:
+    - text: "Subscriptions can be canceled at the end of a period. Early cancellations are partially refunded at 20% of the remaining subscription."
+
+  utter_missed_workouts:
+    - text: "Missing a workout or meal occasionally is okay; just inform me. Consistency is key to achieving your goals."
+
+  utter_change_exercises:
+    - text: "Let me know if you want to change exercises. Calisthenics offers a variety, and we can always adjust the program to keep it fun and suitable for your level."
 
 session_config:
   session_expiration_time: 60
