@@ -1,0 +1,126 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+# Fitness-related questions stories
+- story: ask_hybrid_trainings
+  steps:
+  - intent: ask_hybrid_trainings
+  - action: utter_hybrid_trainings
+
+- story: ask_why_hybrid_trainings
+  steps:
+  - intent: ask_why_hybrid_trainings
+  - action: utter_why_hybrid_trainings
+
+- story: ask_how_to_lose_weight
+  steps:
+  - intent: ask_how_to_lose_weight
+  - action: utter_how_to_lose_weight
+
+- story: ask_what_to_eat_before_workout
+  steps:
+  - intent: ask_what_to_eat_before_workout
+  - action: utter_what_to_eat_before_workout
+
+- story: ask_what_to_eat_after_workout
+  steps:
+  - intent: ask_what_to_eat_after_workout
+  - action: utter_what_to_eat_after_workout
+
+- story: ask_how_fast_results
+  steps:
+  - intent: ask_how_fast_results
+  - action: utter_how_fast_results
+
+- story: ask_home_or_gym
+  steps:
+  - intent: ask_home_or_gym
+  - action: utter_home_or_gym
+
+- story: ask_how_plans_created
+  steps:
+  - intent: ask_how_plans_created
+  - action: utter_how_plans_created
+
+- story: ask_when_to_update_plan
+  steps:
+  - intent: ask_when_to_update_plan
+  - action: utter_when_to_update_plan
+
+- story: ask_about_support
+  steps:
+  - intent: ask_about_support
+  - action: utter_about_support
+
+- story: ask_about_consultation_calls
+  steps:
+  - intent: ask_about_consultation_calls
+  - action: utter_about_consultation_calls
+
+- story: ask_what_makes_plans_different
+  steps:
+  - intent: ask_what_makes_plans_different
+  - action: utter_what_makes_plans_different
+
+- story: ask_price
+  steps:
+  - intent: ask_price
+  - action: utter_price
+
+- story: ask_discount
+  steps:
+  - intent: ask_discount
+  - action: utter_discount
+
+- story: ask_what_is_included
+  steps:
+  - intent: ask_what_is_included
+  - action: utter_what_is_included
+
+- story: ask_pause_subscription
+  steps:
+  - intent: ask_pause_subscription
+  - action: utter_pause_subscription
+
+- story: ask_cancel_subscription
+  steps:
+  - intent: ask_cancel_subscription
+  - action: utter_cancel_subscription
+
+- story: ask_missed_workout_or_meal
+  steps:
+  - intent: ask_missed_workout_or_meal
+  - action: utter_missed_workout_or_meal
+
+- story: ask_cant_do_exercises
+  steps:
+  - intent: ask_cant_do_exercises
+  - action: utter_cant_do_exercises

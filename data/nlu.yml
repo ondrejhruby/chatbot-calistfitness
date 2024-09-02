@@ -1,0 +1,218 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+# Fitness-related intents
+- intent: ask_hybrid_trainings
+  examples: |
+    - What are Hybrid Trainings?
+    - Can you tell me about Hybrid Trainings?
+    - What do you mean by Hybrid Trainings?
+    - Explain Hybrid Trainings.
+
+- intent: ask_why_hybrid_trainings
+  examples: |
+    - Why Hybrid Trainings?
+    - What is the benefit of Hybrid Trainings?
+    - Why should I choose Hybrid Trainings?
+    - Why are Hybrid Trainings better?
+
+- intent: ask_weight_loss
+  examples: |
+    - How can I lose weight?
+    - What should I do to lose weight?
+    - Can I lose weight with your program?
+    - How does your program help with weight loss?
+
+- intent: ask_meal_before_workout
+  examples: |
+    - What should I eat before a workout?
+    - Can I eat before training?
+    - What is the best pre-workout meal?
+    - Should I eat before my workout?
+
+- intent: ask_meal_after_workout
+  examples: |
+    - What should I eat after a workout?
+    - What is the best post-workout meal?
+    - Should I eat after my training?
+    - Can I have a meal after my workout?
+
+- intent: ask_results_timing
+  examples: |
+    - When will I see results?
+    - How long does it take to see results?
+    - How fast will I see progress?
+    - When can I expect to see changes?
+
+- intent: ask_workout_location
+  examples: |
+    - Can I train at home?
+    - Do I need to go to the gym?
+    - What if I don't have a gym membership?
+    - Can you make a home workout plan?
+
+- intent: ask_plan_creation
+  examples: |
+    - How is my plan created?
+    - How do you create my workout plan?
+    - What factors do you consider for my plan?
+    - How do you decide my training plan?
+
+- intent: ask_plan_update
+  examples: |
+    - When do we update my plan?
+    - How often will my plan be updated?
+    - What if my plan is not working?
+    - How do you adjust my training plan?
+
+- intent: ask_support
+  examples: |
+    - What support do I get?
+    - Is there any support during the training?
+    - Can I ask questions during the program?
+    - What kind of assistance do you provide?
+
+- intent: ask_consultation_call
+  examples: |
+    - How long is the consultation call?
+    - What happens during the consultation call?
+    - Can you tell me about the consultation call?
+    - What do we discuss in the consultation call?
+
+- intent: ask_program_benefits
+  examples: |
+    - Why should I choose your program?
+    - What makes your training unique?
+    - How is your program different?
+    - What are the benefits of your coaching?
+
+- intent: ask_price
+  examples: |
+    - How much does the coaching cost?
+    - What is the price of your program?
+    - Can you tell me the cost of the coaching?
+    - How much do I have to pay for your service?
+
+- intent: ask_discounts
+  examples: |
+    - Do you offer any discounts?
+    - Are there any deals on your program?
+    - Can I get a discount?
+    - Is there a price reduction for long-term plans?
+
+- intent: ask_pause_subscription
+  examples: |
+    - Can I pause my subscription?
+    - What if I need to take a break?
+    - Is it possible to pause the coaching?
+    - Can I stop and restart later?
+
+- intent: ask_cancel_subscription
+  examples: |
+    - How do I cancel my subscription?
+    - Can I cancel my plan anytime?
+    - What is your cancellation policy?
+    - How do I stop the coaching?
+
+- intent: ask_missed_workouts
+  examples: |
+    - What if I miss a workout?
+    - Is it okay to miss a session?
+    - What happens if I skip training?
+    - Can I make up for missed workouts?
+
+- intent: ask_exercise_changes
+  examples: |
+    - Can I change exercises?
+    - What if I don't like some exercises?
+    - Can you adjust my workouts?
+    - What if I can't do a particular exercise?
