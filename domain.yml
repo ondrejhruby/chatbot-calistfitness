@@ -1,10 +1,27 @@
 version: "3.1"
 
 intents:
+  - ask_how_to_lose_weight
+  - ask_what_to_eat_before_workout
+  - ask_what_to_eat_after_workout
+  - ask_how_fast_results
+  - ask_home_or_gym
+  - ask_how_plans_created
+  - ask_when_to_update_plan
+  - ask_about_support
+  - ask_about_consultation_calls
+  - ask_what_makes_plans_different
+  - ask_price
+  - ask_discount
+  - ask_what_is_included
+  - ask_missed_workout_or_meal
+  - ask_cant_do_exercises
+  - ask_change_exercises
   - greet
   - goodbye
   - affirm
   - deny
+  - thanks
   - mood_great
   - mood_unhappy
   - bot_challenge
